@@ -1,0 +1,33 @@
+{
+	"name": "astro-redline",
+	"version": "0.1.0",
+	"description": "Mark up pages in astro dev: notes, cuts and rewrites pinned to the page, saved to a file a coding agent can work through.",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.mjs"
+		}
+	},
+	"files": [
+		"index.mjs",
+		"index.d.ts",
+		"app.js"
+	],
+	"keywords": [
+		"astro-integration",
+		"withastro",
+		"astro",
+		"dev-toolbar",
+		"annotations",
+		"review"
+	],
+	"peerDependencies": {
+		"astro": ">=6.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ntindle/astro-redline.git"
+	},
+	"license": "MIT"
+}
